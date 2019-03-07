@@ -23,7 +23,7 @@ function preload(){
 
 function setup() {
     fill(255)
-    createCanvas(1920,1080)
+    createCanvas(1920,1080) // can change this if too big/small
     image(bg,0,0)
     image(figures,0,0)
     colorMode(HSB)
@@ -38,7 +38,7 @@ function connectKinect() {
     var address = {
         // var IPaddy = select('#IP').value()
         // console.log(IPaddy)
-        host: '10.17.81.138',
+        host: '127.0.0.1', // this is where you point to kinectron
         port: 9001,
         path: '/'
     };

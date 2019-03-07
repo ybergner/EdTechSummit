@@ -40,7 +40,7 @@ function connectKinect() {
 console.log("connecting")
     let address = {
 
-        host: '10.17.81.138',
+      host: '127.0.0.1', // this is where you point to kinectron server
         port: 9001,
         path: '/'
     };
